@@ -9,40 +9,68 @@
         text-align: center;
       }
       
-      .lds-ring {
-  display: inline-block;
-  position: relative;
-  width: 80px;
-  height: 80px;
+      <div class="loadingio-spinner-ellipsis-piidshx11c"><div class="ldio-tyttrfnpvhc">
+<div></div><div></div><div></div><div></div><div></div>
+</div></div>
+<style type="text/css">
+@keyframes ldio-tyttrfnpvhc {
+   0% { transform: translate(12px,80px) scale(0); }
+  25% { transform: translate(12px,80px) scale(0); }
+  50% { transform: translate(12px,80px) scale(1); }
+  75% { transform: translate(80px,80px) scale(1); }
+ 100% { transform: translate(148px,80px) scale(1); }
 }
-.lds-ring div {
-  box-sizing: border-box;
-  display: block;
+@keyframes ldio-tyttrfnpvhc-r {
+   0% { transform: translate(148px,80px) scale(1): }
+ 100% { transform: translate(148px,80px) scale(0); }
+}
+@keyframes ldio-tyttrfnpvhc-c {
+   0% { background: #69bfdc }
+  25% { background: #e0e0e0 }
+  50% { background: #faa61a }
+  75% { background: #0076a3 }
+ 100% { background: #69bfdc }
+}
+.ldio-tyttrfnpvhc div {
   position: absolute;
-  width: 64px;
-  height: 64px;
-  margin: 8px;
-  border: 8px solid #fff;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #fff transparent transparent transparent;
+  transform: translate(80px,80px) scale(1);
+  background: #69bfdc;
+  animation: ldio-tyttrfnpvhc 1s infinite cubic-bezier(0,0.5,0.5,1);
 }
-.lds-ring div:nth-child(1) {
-  animation-delay: -0.45s;
+.ldio-tyttrfnpvhc div:nth-child(1) {
+  background: #0076a3;
+  transform: translate(148px,80px) scale(1);
+  animation: ldio-tyttrfnpvhc-r 0.25s infinite cubic-bezier(0,0.5,0.5,1), ldio-tyttrfnpvhc-c 1s infinite step-start;
+}.ldio-tyttrfnpvhc div:nth-child(2) {
+  animation-delay: -0.25s;
+  background: #69bfdc;
+}.ldio-tyttrfnpvhc div:nth-child(3) {
+  animation-delay: -0.5s;
+  background: #0076a3;
+}.ldio-tyttrfnpvhc div:nth-child(4) {
+  animation-delay: -0.75s;
+  background: #faa61a;
+}.ldio-tyttrfnpvhc div:nth-child(5) {
+  animation-delay: -1s;
+  background: #e0e0e0;
 }
-.lds-ring div:nth-child(2) {
-  animation-delay: -0.3s;
+.loadingio-spinner-ellipsis-piidshx11c {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #f1f2f3;
 }
-.lds-ring div:nth-child(3) {
-  animation-delay: -0.15s;
-}
-@keyframes lds-ring {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.ldio-tyttrfnpvhc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
 }
 
   </style>
